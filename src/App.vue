@@ -1,18 +1,15 @@
 <template>
   <div class="container">
-    <Header title="Hello" />
+    <TopText title="Task Tracker" />
   </div>
 </template>
 
 <script>
-import Header from './components/Header';
+import TopText from './components/TopText';
 
 export default {
-  name: 'App',
-  components: {
-    Header,
-
-  }
+  name: "App",
+  components: { TopText }
 }
 </script>
 
@@ -44,4 +41,4 @@ body {
   border: none;
   padding: 10px 20px;
 }
-</style>
+</style> 
